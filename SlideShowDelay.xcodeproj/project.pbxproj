@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AB07E43B27DA6F1300392EBD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB07E43A27DA6F1300392EBD /* README.md */; };
+		AB8F3DAE2BB9088300223E10 /* SingleSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8F3DAD2BB9088300223E10 /* SingleSlideView.swift */; };
 		ABCC08222BB8EF4C0097E502 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCC08192BB8EF4C0097E502 /* Preview Assets.xcassets */; };
 		ABCC08232BB8EF4C0097E502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCC081B2BB8EF4C0097E502 /* Assets.xcassets */; };
 		ABCC08242BB8EF4C0097E502 /* AudioDJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC081C2BB8EF4C0097E502 /* AudioDJ.swift */; };
-		ABCC08252BB8EF4C0097E502 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC081D2BB8EF4C0097E502 /* ContentView.swift */; };
 		ABCC08262BB8EF4C0097E502 /* SlidesAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC081E2BB8EF4C0097E502 /* SlidesAudioView.swift */; };
 		ABCC08272BB8EF4C0097E502 /* SlideShowDelayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC081F2BB8EF4C0097E502 /* SlideShowDelayApp.swift */; };
-		ABCC08282BB8EF4C0097E502 /* SlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCC08202BB8EF4C0097E502 /* SlideShowView.swift */; };
 		ABCC082B2BB8F0690097E502 /* scale-study-guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABCC08292BB8F0690097E502 /* scale-study-guitar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB07E42327DA553D00392EBD /* SlideShowDelay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowDelay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB07E43A27DA6F1300392EBD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB8F3DAD2BB9088300223E10 /* SingleSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSlideView.swift; sourceTree = "<group>"; };
 		ABCC08192BB8EF4C0097E502 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABCC081B2BB8EF4C0097E502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCC081C2BB8EF4C0097E502 /* AudioDJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDJ.swift; sourceTree = "<group>"; };
-		ABCC081D2BB8EF4C0097E502 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABCC081E2BB8EF4C0097E502 /* SlidesAudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesAudioView.swift; sourceTree = "<group>"; };
 		ABCC081F2BB8EF4C0097E502 /* SlideShowDelayApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowDelayApp.swift; sourceTree = "<group>"; };
-		ABCC08202BB8EF4C0097E502 /* SlideShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowView.swift; sourceTree = "<group>"; };
 		ABCC08292BB8F0690097E502 /* scale-study-guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scale-study-guitar.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,9 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				ABCC081F2BB8EF4C0097E502 /* SlideShowDelayApp.swift */,
-				ABCC081D2BB8EF4C0097E502 /* ContentView.swift */,
 				ABCC081E2BB8EF4C0097E502 /* SlidesAudioView.swift */,
-				ABCC08202BB8EF4C0097E502 /* SlideShowView.swift */,
+				AB8F3DAD2BB9088300223E10 /* SingleSlideView.swift */,
 				ABCC081C2BB8EF4C0097E502 /* AudioDJ.swift */,
 				ABCC082A2BB8F0690097E502 /* Resources */,
 				ABCC081A2BB8EF4C0097E502 /* Preview Content */,
@@ -163,9 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCC08272BB8EF4C0097E502 /* SlideShowDelayApp.swift in Sources */,
-				ABCC08252BB8EF4C0097E502 /* ContentView.swift in Sources */,
-				ABCC08282BB8EF4C0097E502 /* SlideShowView.swift in Sources */,
 				ABCC08262BB8EF4C0097E502 /* SlidesAudioView.swift in Sources */,
+				AB8F3DAE2BB9088300223E10 /* SingleSlideView.swift in Sources */,
 				ABCC08242BB8EF4C0097E502 /* AudioDJ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

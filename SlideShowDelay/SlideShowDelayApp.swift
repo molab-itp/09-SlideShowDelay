@@ -12,8 +12,12 @@ struct SlideShowDelayApp: App {
     @StateObject var audioDJ = AudioDJ()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SlidesAudioView()
                 .environmentObject(audioDJ)
         }
     }
 }
+
+// system symbol names for each slide
+// could passed as EnvironmentObject
+let slides = ["fish","ant","hare","ladybug","tortoise"]
