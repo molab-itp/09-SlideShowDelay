@@ -16,7 +16,7 @@ struct SlidesAudioView: View {
   @State var delayCount = 0.0
   @State var audioFlag = false
   
-  @EnvironmentObject var audioDJ:AudioDJ;
+  @Environment(AudioDJ.self) var audioDJ
   
   var body: some View {
     VStack {
@@ -72,7 +72,7 @@ struct SlidesAudioView: View {
     .onDisappear() {
       
     }
-    .onChange(of: audioFlag) { _ in
+    .onChange(of: audioFlag) {
       checkAudio()
     }
   }
@@ -99,9 +99,7 @@ struct SlidesAudioView: View {
 
 // AudioDJ must be established here to avoid crash in preview
 // Can not use var property
-struct SlideView_Previews: PreviewProvider {
-  static var previews: some View {
-    SlidesAudioView()
-      .environmentObject(AudioDJ())
-  }
+#Preview {
+  SlidesAudioView()
+    .environment(AudioDJ())
 }

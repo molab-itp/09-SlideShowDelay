@@ -9,15 +9,15 @@ import SwiftUI
 
 @main
 struct SlideShowDelayApp: App {
-    @StateObject var audioDJ = AudioDJ()
+    @State var audioDJ = AudioDJ()
     var body: some Scene {
         WindowGroup {
             SlidesAudioView()
-                .environmentObject(audioDJ)
+                .environment(audioDJ)
         }
     }
 }
 
 // system symbol names for each slide
-// could passed as EnvironmentObject
+// could be passed via .environment
 let slides = ["fish","ant","hare","ladybug","tortoise"]
